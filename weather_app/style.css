@@ -1,0 +1,28 @@
+body{
+  background-color:#424242;
+  color: #ffffff;
+  
+}
+.header{
+  font-size:70px;
+    font-weight:bold;
+  margin-top:50px;
+}
+main{
+  margin-top:50px;
+}
+img{
+  margin:auto;
+}
+.location,.temp{
+  font-size:30px;
+}
+a{
+  font-size:30px;
+  cursor:pointer;
+  text-decoration: none;
+}
+p{
+  font-family:Helvetica;
+  font-size:30px;
+}
