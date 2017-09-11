@@ -1,0 +1,71 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+body{
+     background-image: url("https://static.turbosquid.com/Preview/2014/08/01__19_04_23/Maplestripes.jpga33d1683-faef-4bea-bf59-4aa90600bd00Larger.jpg");
+  /*background-size: cover;*/
+  color:slategray;
+  font-family:Comic Sans MS, cursive, sans-serif;
+}
+header{
+  font-size:60px;
+}
+.green{
+  width:50%;
+  background-color:#4CAF50;
+}
+.green_active{
+  width:50%;
+   background-color:#46a049;
+}
+.red{
+  width:50%;
+  background-color:#f44336;
+}
+.red_active{
+   width:50%;
+  background-color:#da190b;
+}
+.blue{
+  width:50%;
+  background-color:#2196F3;
+}
+.blue_active{
+  width:50%;
+  background-color:#0b7dda;
+}
+.yellow{
+  width:50%;
+  background-color:#ff9800;
+}
+.yellow_active{
+  width:50%;
+  background-color:#e68a00;
+}
+.block{
+  float:left;
+  border: 10px solid slategray;
+ }
+#count{
+  border: 3px solid black;
+  height:50px;
+  width:50px;
+  background-color:rgb(45,0,0);
+  text-align:center;
+  font-size:30px;
+  color:rgb(183, 67, 67);
+  margin-right:10px;
+  margin-top:10px;
+}
+.input{
+  width:50%;
+  float:left;
+ }
+.i2{
+  margin:auto;
+  text-align:center;
+}
+.mode{
+  margin-top:24px;
+}
