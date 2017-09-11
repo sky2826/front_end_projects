@@ -1,0 +1,22 @@
+body{
+  background-color:#42413d;
+  font-family:Comic Sans Ms;
+   color:white;
+}
+P{
+ 
+  font-size:100px;
+  
+}
+span{
+  cursor:pointer;
+}
+.main{
+  width:400px;
+  height:400px;
+  border:2px solid lightblue;
+  margin:auto;
+  border-radius:50%;
+ text-align:center;
+  cursor:pointer;
+}

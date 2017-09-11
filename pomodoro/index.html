@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>pomodoro</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="style.css">
+
+  
+</head>
+
+<body>
+  <p class="text-center">POMODORO</p>
+<div class="row">
+  <div class="col-md-4" >
+  </div>
+    <div class="col-md-2">
+      <h3 class="tex-center">Break Length</h3>
+      <h4 class="text-center"><span class="brk" id="inc">+</span>&nbsp;<span id="brkval">5</span>&nbsp;<span class="brk" id="dec">-</span></h4>
+  </div>
+  <div class="col-md-2">
+    <h3 class="tex-center">Session Length</h3>
+     <h4 class="text-center"><span class="ses" id="inc">+</span>&nbsp;<span id="sesval">25</span>&nbsp;<span class="ses" id="dec">-</span></h4>
+  </div>
+  </div>
+</div>
+<br/>
+<div class="row">
+  <div class="col-md-offset-4 col-md-4">
+    <div class="main">
+      <br/>
+      <br/>
+      <br/>
+      <h1 id="header">Session<h1>
+        <br/>
+        <br/>
+        <h1 id="time"></h1>
+    </div>
+        <br/>
+        <button  class="btn btn-info center-block" id="reset"><span class="glyphicon glyphicon-refresh"></span>Reset</button>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
