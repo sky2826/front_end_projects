@@ -1,0 +1,72 @@
+body{
+  position:relative;
+  background-color:grey;
+}
+a span{
+  line-height:60px;
+}
+span{
+  font-family:arial;
+}
+.section{
+  padding-top:90px;
+  width:90%;
+  margin:auto;
+  padding-bottom:50px;
+ 
+}
+#section1{
+  background-color:darkgrey;
+  color:white;
+   padding-left:50px;
+  text-align:right;
+}
+hr{
+  border-width:5px;
+}
+
+.profile{
+  border-radius:50%;
+}
+#section2{
+  background-color:white;
+  color:#999999;
+  
+}
+#section hr{
+  border-color: #999999;
+}
+#section3{
+  color:#999999;
+  background-color:white;
+}
+.subsection{
+  margin:50px;
+}
+input{
+  width:100%;
+  height:70px;
+  font-size:40px;
+  padding-top:0px;
+  border-botton:1px;
+  text-align:start;
+  border:none;
+  color:#999999;
+}
+#message{
+  height:300px;
+}
+.text:focus{
+  border:none;
+}
+#connect{
+  background-color:darkgrey;
+  padding:50px;
+  margin-bottom=0px;
+  color:white;
+}
+.footer{
+  margin:0px;
+  background-color:dodgerblue;
+  padding:10px;
+}
