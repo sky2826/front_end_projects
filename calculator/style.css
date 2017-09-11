@@ -1,0 +1,29 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+.left button{
+  width:30%;
+}
+.left{
+  width:75%;
+    float:left;
+}
+.right{
+  width:25px;
+  float:left
+}
+button{
+  margin-top:10px;
+}
+.right button{
+  width:90px;
+}
+.bord{
+  background-color:grey;
+  border: 2px solid black;
+  margin-top:10px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius:5px;
+}
